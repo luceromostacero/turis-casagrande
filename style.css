@@ -1,0 +1,14 @@
+
+.hero h1 {
+  color: #FFD700 !important;
+}
+
+
+.mensaje-principal h1 {
+  font-size: 3.5em;
+  font-family: 'Georgia', serif;
+  color: #FFD700 !important; /* Dorado llamativo */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  font-weight: bold;
+}

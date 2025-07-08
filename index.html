@@ -1,1 +1,354 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+
+  <meta charset="UTF-8">
+  <title>Casa Grande - Portal Turístico</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .hero {
+      background: url('img/plaza-noche.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 100px;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #f5f5f5 100%);
+    }
+
+    .hero img.logo {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    .info-nav {
+      background-color: #007a3d;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 15px 10px;
+      font-weight: bold;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+
+    .info-nav a:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .info-section {
+      padding: 40px 20px;
+      background-color: #ffffff;
+    }
+
+    .info-section h2 {
+      color: #004d2e;
+      font-weight: 600;
+    }
+
+    .info-section p, .info-section ul {
+      font-size: 1.1em;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 10px auto;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+    }
+
+    footer {
+      background: #004d2e;
+      color: rgb(248, 246, 250);
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <!-- LOGO DE LA MUNICIPALIDAD -->
+    <img src="img/escudo.png" alt="Logo Municipalidad de Casa Grande" class="logo">
+    <div class="mensaje-principal">
+      <h1>Bienvenidos a Casa Grande</h1>
+      <p>Tierra fértil, historia viva y cultura que enamora</p>
+      <p><strong>Un distrito que crece con su gente</strong></p>
+    </div>
+  </section>
+
+  <!-- Barra de navegación informativa -->
+  <nav class="info-nav">
+    <a href="#historia">Historia</a>
+    <a href="#fiestas">Fiestas</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#lugares">Lugares</a>
+    <a href="#himno">Himno</a>
+    <a href="#danza">Danza</a>
+    <a href="#video">Video</a>
+  </nav>
+
+  <section class="info-section">
+    <h2 id="historia">⭐ Historia de Casa Grande</h2>
+    <img src="img/historia.png" alt="Creación del Distrito de Casa Grande" style="display: block; margin: 20px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <p>El distrito de Casa Grande, tal como lo conocemos hoy, no siempre gozó de autonomía política y administrativa. En sus inicios, esta pujante localidad pertenecía al distrito de Chicama, en la provincia de Ascope, departamento de La Libertad. Sin embargo, el notable crecimiento urbano, el desarrollo económico sostenido y el fortalecimiento del sentido de identidad colectiva entre sus habitantes impulsaron una fuerte demanda para alcanzar su independencia distrital.
+Durante décadas, Casa Grande fue un centro poblado con intensa actividad agrícola e industrial, especialmente vinculada a la industria azucarera, siendo sede de una de las empresas más importantes del norte del Perú. Su constante expansión demográfica y el aumento de sus necesidades sociales, educativas, sanitarias y de infraestructura comenzaron a evidenciar una gran desproporción en relación con la administración central ubicada en Chicama. Esta situación generó malestar entre los pobladores, quienes sentían que sus demandas no eran atendidas con la prontitud ni eficacia requeridas.
+Fue así que en el año 1983 surgieron las primeras iniciativas ciudadanas orientadas a lograr la independencia administrativa. Vecinos organizados, líderes comunales y autoridades locales empezaron a gestionar formalmente ante la Municipalidad Provincial de Ascope el reconocimiento de Casa Grande como distrito. Aunque los primeros intentos no prosperaron de inmediato, el clamor social se mantuvo vigente a lo largo de los años.
+
+La perseverancia de los casagrandinos encontró eco en las autoridades de turno. La gestión de figuras clave, como el entonces alcalde del distrito de Chicama, Carlos Calderón Azabache, y el compromiso de otros actores políticos y sociales, permitió avanzar con el expediente técnico y los trámites legales necesarios para alcanzar la meta. Tras un largo proceso de gestiones, debates y revisiones, finalmente se obtuvo el respaldo del Congreso de la República del Perú.
+
+El gran hito llegó el 10 de enero de 1991, cuando mediante la Ley N.º 24991, se aprobó oficialmente la creación del distrito de Casa Grande. A partir de esa fecha, la localidad dejó de ser solo una próspera zona del distrito de Chicama para convertirse en una unidad político-administrativa con autonomía propia y autoridades elegidas por voto popular.
+
+Desde entonces, Casa Grande no solo ha reforzado su identidad cultural, sino que también ha avanzado en el desarrollo de su infraestructura urbana, servicios públicos y promoción de actividades sociales y culturales. Actualmente, es considerado uno de los distritos más dinámicos de la provincia de Ascope, con una población laboriosa, un fuerte arraigo histórico y un potencial turístico y productivo que continúa creciendo.
+
+La creación del distrito no fue un simple acto legislativo; fue el resultado de la voluntad colectiva de un pueblo decidido a tomar las riendas de su destino. Casa Grande representa hoy un ejemplo de organización comunitaria, de progreso regional y de orgullo liberteño.
+
+    <<h2 id="fiestas">🎊 Fiestas Tradicionales de Casa Grande</h2>
+
+<p>Casa Grande celebra con orgullo diversas festividades que forman parte de su identidad cultural y comunitaria. Estas fiestas reflejan la historia, el espíritu trabajador y la creatividad de su gente.</p>
+
+<h3>🎂 Aniversario del Distrito de Casa Grande – 10 de enero</h3>
+<img src="img/entrada-arco.jpg" alt="Aniversario de Casa Grande" style="display:block; margin: 15px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+<p>
+Una de las celebraciones más significativas para el pueblo de Casa Grande es su aniversario distrital, que se conmemora cada 10 de enero. Esta fecha recuerda la creación oficial del distrito y rinde homenaje a quienes trabajaron por convertirlo en lo que es hoy: un hogar para miles de familias.
+</p>
+<p>
+Durante esta festividad, los casagrandinos se unen para celebrar su historia y progreso. Se elige a la reina del aniversario, se decoran las calles con luces y colores, y se realizan actividades culturales, artísticas y recreativas que fortalecen la identidad local y el orgullo de pertenecer a esta tierra.
+</p>
+
+<h3>📅 Fiesta de la Zafra – 9 de octubre</h3>
+<img src="img/fiesta.png" alt="Fiesta de la Zafra en Casa Grande" style="display:block; margin: 15px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+<p>
+Celebración histórica que data de la época de los Gildemeister y que se mantuvo durante el periodo cooperativista. Se realizaba cada 9 de octubre, destacando el desfile de carros alegóricos, música, danzas típicas, reinas de belleza y participación de bandas nacionales e internacionales. Una muestra de arte, cultura y alegría que recorría las principales calles del distrito.
+</p>
+
+<h3>🍽️ Día de la Papita con Miga – Tercer domingo de agosto</h3>
+<img src="img/papita-miga.jpeg" alt="Papita con Miga, plato típico de Casa Grande" style="display:block; margin: 15px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+<p>
+Fiesta dedicada al plato bandera del distrito. Cada tercer domingo de agosto, la comunidad se reúne para rendir homenaje a la “Papita con Miga”, reconocida oficialmente por Ordenanza Municipal 007–2018. Se organizan ferias gastronómicas, concursos, danzas y música en honor a esta delicia local.
+</p>
+
+<h3>⛪ Festividades Patronales</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zuFVU7BPm5Y" 
+title="Festividad San José Obrero en Casa Grande" 
+style="display:block; margin: 15px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);" 
+frameborder="0" allowfullscreen></iframe>
+
+<p>
+Además de las fiestas principales, Casa Grande celebra sus festividades religiosas en honor a <strong>San José Obrero</strong>, patrón del distrito. Las actividades incluyen misas, procesiones, actividades sociales y eventos culturales que reúnen a familias y visitantes.
+</p>
+
+
+    <h2 id="ubicacion">🌐 Ubicación Geográfica</h2>
+    <p>Casa Grande es una jurisdicción distrital perteneciente a la provincia de Ascope, en el departamento de La Libertad, Perú. Está situada al norte del valle Chicama, en la localidad del mismo nombre, a una altitud de 158 metros sobre el nivel del mar, aproximadamente en las coordenadas 7°41' de latitud sur y 79°11' de longitud oeste.
+    
+  <h2 id="lugares">🏞️ Lugares Turísticos</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; padding: 20px 0;">
+
+  <!-- Plaza de Armas -->
+  <div>
+    <img src="img/estatua.jpeg" alt="Plaza de Armas de Casa Grande" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Plaza de Armas de Casa Grande</h3>
+    <p>Espacio central de encuentro ciudadano, con jardines y áreas verdes. Es sede de eventos cívicos y culturales.</p>
+  </div>
+
+  <!-- Estadio Municipal -->
+  <div>
+    <img src="img/estadio.jpeg" alt="Estadio Municipal" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Estadio Municipal</h3>
+    <p>Principal recinto deportivo del distrito, donde se realizan torneos, festivales y actividades comunales.</p>
+  </div>
+
+
+  <!-- Municipalidad -->
+  <div>
+    <img src="img/municipalidad.jpeg" alt="Municipalidad Distrital" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Municipalidad Distrital de Casa Grande</h3>
+    <p>Institución administrativa símbolo de autonomía y desarrollo local, ubicada en el centro del distrito.</p>
+  </div>
+
+
+  <!-- Cine -->
+  <div>
+    <img src="img/cine.jpg" alt="Antiguo Cine de Casa Grande" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Antiguo Cine de Casa Grande</h3>
+    <p>Espacio cultural que marcó generaciones. Hoy representa la memoria colectiva del entretenimiento local.</p>
+  </div>
+
+  <!-- Museo César Vallejo -->
+  <div>
+    <img src="img/museo.png" alt="Museo Histórico Literario César Vallejo" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Museo Histórico Literario “César Vallejo”</h3>
+    <p>Ubicado en el centro poblado de Roma. Rinde homenaje al poeta y conserva documentos y objetos históricos.</p>
+  </div>
+
+  <!-- Museo del Valle Chicama -->
+  <div>
+    <img src="img/museo valle.png valle.png " alt="Museo Central del Valle Chicama" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Museo Central del Valle Chicama</h3>
+    <p>Situado en la ex Hacienda Casa Grande, muestra la historia agroindustrial del valle con piezas originales.</p>
+  </div>
+
+  <!-- Mirador de Roma -->
+  <div>
+    <img src="img/cima.png" alt="Mirador Turístico de Roma" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Mirador Turístico de Roma</h3>
+    <p>Ubicado en la cima del cerro de Roma, ofrece vistas panorámicas del valle Chicama. Ideal para caminatas y turismo ecológico.</p>
+  </div>
+
+  <!-- Sistema Productivo de Azúcar -->
+  <div>
+    <img src="img/caña.png" alt="Sistema Productivo de Azúcar" style="width:100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    <h3>Sistema Productivo de Azúcar</h3>
+    <p>Instalado en la fábrica de Casa Grande. Permite conocer el proceso de producción de azúcar, motor histórico del distrito.</p>
+  </div>
+
+</div>
+
+
+
+
+
+    <h2 id="himno">🎵 Himno de Casa Grande</h2>
+
+<p><strong>AUTOR Y COMPOSITOR:</strong> William Adrián Armas Obando</p>
+
+<p><em>
+<strong>CORO</strong><br>
+Casa Grande que escribes tu historia,<br>
+con matices de gloria y de paz.<br>
+Entonemos el canto sagrado<br>
+¡Gloria a Dios, al Perú y mi ciudad!
+</em></p>
+
+<p><em>
+<strong>I</strong><br>
+Caminemos con pasos muy firmes,<br>
+Casa Grande es el norte,<br>
+con eternos laureles de gloria,<br>
+de trabajo y de honradez.<br>
+Y con sangre y sudor nuestras tierras<br>
+nos darán el azúcar y el pan.
+</em></p>
+
+<p><em>
+<strong>II</strong><br>
+Tierra fértil de bravos mochicas,<br>
+con un juicio inmortal,<br>
+nuestro himno será el estandarte<br>
+y adalid de libertad.<br>
+Y del valle este grito sagrado:<br>
+Casa Grande es mi tierra y honor.<br>
+¡Gloria a Dios y Perú!<br>
+¡Gloria a Dios, al Perú y mi ciudad!
+</em></p>
+
+
+    <h2 id="danza">💃 Danza Representativa</h2>
+
+<img src="img/marinera.png" alt="Danza Marinera Norteña en Casa Grande" style="display:block; margin: 15px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+
+<p>
+La <strong>Marinera Norteña</strong> es la danza representativa de Casa Grande, símbolo de elegancia, tradición y orgullo cultural. Se baila en diversas festividades del distrito, especialmente durante las celebraciones patrias y fiestas patronales.
+</p>
+
+    <h2 id="video">📽️ Video Representativo</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5-OCdVSlIi0" 
+title="Video Representativo de Casa Grande" 
+frameborder="0" allowfullscreen style="display:block; margin: 20px auto; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</iframe>
+
+
+
+
+
+ <!-- ... (todo tu contenido anterior permanece igual) ... -->
+
+<section style="background-color: #007a3d; color: white; padding: 40px 20px; text-align: center; border-radius: 15px; margin: 40px auto; max-width: 900px;">
+  <h2 style="font-size: 2em; margin-bottom: 20px;">¡Te esperamos en Casa Grande!</h2>
+  <p style="font-size: 1.2em; line-height: 1.6;">
+    Descubre un destino lleno de historia, cultura, tradiciones y sabores únicos.  
+    Recorre sus calles, admira sus paisajes, celebra sus fiestas y siente la calidez de su gente.  
+    <strong>Casa Grande</strong> no es solo un lugar para visitar, es un lugar para sentir y recordar.  
+    ¡Ven y vive la experiencia inolvidable de nuestro querido distrito!
+  </p>
+</section>
+<!-- SECCIÓN QR -->
+<section style="text-align: center; padding: 40px 20px;">
+  <h2>📱 Escanea el código y conócenos</h2>
+  <canvas id="qr-code" style="margin: 20px auto;"></canvas>
+  <p style="font-size: 1.1em;">¡Descubre más de Casa Grande escaneando este código QR con tu celular!</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  &copy; 2025 Municipalidad Distrital de Casa Grande &ndash; Portal turístico
+</footer>
+
+
+
+<!-- LIBRERÍA QR + SCRIPT -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+<script>
+  new QRious({
+    element: document.getElementById('qr-code'),
+    value: 'https://casagrande-turismo.netlify.app/', // 🔁 Reemplaza esto con el enlace de tu página
+    size: 200,
+    background: 'white',
+    foreground: '#004d2e'
+  });
+
+
+  
+</script>
+
+</body>
+</html>
